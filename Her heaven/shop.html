@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Her Heaven - Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">Her Heaven</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <a href="login.html" class="active"><i class="fas fa-user"></i></a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#" id="search-icon-link"><i class="fas fa-search"></i></a>
+        </div>
+    </header>
+
+    <div class="shop-container">
+        <aside class="filter-sidebar">
+            <h3>Shop Filter</h3>
+            <div class="filter-group">
+                <h4>Category</h4>
+                <ul>
+                    <li><input type="checkbox">Daily Wear</li>
+                    <li><input type="checkbox"> Beauty</li>
+                    <li><input type="checkbox"> Jewellery</li>
+                    <li><input type="checkbox"> Footwear</li>
+                    <li><input type="checkbox"> Watches</li>
+                    <li><input type="checkbox"> Bridal Wear</li>
+                    <li><input type="checkbox">Skin Care</li>
+                    <li><input type="checkbox">Hand Bags</li>
+                </ul>
+            </div>
+            <div class="filter-group">
+                <h4>Price Range</h4>
+                <input type="range" min="0" max="500">
+            </div>
+        </aside>
+
+        <section class="product-display">
+            <div class="sort-options">
+                Sort by:
+                <select>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest Arrivals</option>
+                </select>
+            </div>
+            
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/Neck lace.jpeg" alt="Necklace">
+                    <h3>Necklace</h3>
+                    <p>$99.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/Lipstick.jpeg" alt="Lipstick">
+                    <h3>Lipstick</h3>
+                    <p>$25.50</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/Heels.jpeg" alt="Heels">
+                    <h3>Heels</h3>
+                    <p>$120.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/Watch.jpeg" alt="Watch">
+                    <h3>Watch</h3>
+                    <p>$250.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/Earrings.jpeg" alt="Earrings">
+                    <h3>Earrings</h3>
+                    <p>$55.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/Bridal Gown.jpeg" alt="Bridal Gown">
+                    <h3>Bridal Gown</h3>
+                    <p>$899.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/Facemask&scrub.jpeg" alt="Face Mask & Scrubs">
+                    <h3>Face Mask & Scrubs</h3>
+                    <p>$75.50</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/Party gold clutch.jpeg" alt="Party Gold Clutch">
+                    <h3>Party Gold Clutch</h3>
+                    <p>$450.50</p>
+                </div>
+                <div class="product-card">
+                    <img src="images/Silk saree.jpeg" alt="Silk Saree">
+                    <h3>Silk Saree</h3>
+                    <p>$850.50</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Her Heaven. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
